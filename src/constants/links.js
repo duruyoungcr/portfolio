@@ -1,0 +1,45 @@
+import * as React from "react"
+import {
+  FaFacebookSquare as Facebook,
+  FaTwitterSquare as Twitter,
+  FaLinkedin as Linkedin,
+  FaGithub as Github,
+} from "react-icons/fa"
+
+export const menuItems = [
+  {
+    path: "/",
+    text: "home",
+  },
+  {
+    path: "/projects",
+    text: "projects",
+  },
+  {
+    path: "/blog",
+    text: "blog",
+  },
+  {
+    path: "/contact",
+    text: "contact",
+  },
+]
+
+export const socialItems = [
+  {
+    path: "https://facebook.com/duruyoungcr",
+    icon: <Facebook />,
+  },
+  {
+    path: "https://twitter.com/duruyoungcr",
+    icon: <Twitter />,
+  },
+  {
+    path: "https://github.com/duruyoungcr",
+    icon: <Github />,
+  },
+  {
+    path: "https://linkedin.com/in/duruyoungcr",
+    icon: <Linkedin />,
+  },
+]
