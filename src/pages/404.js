@@ -7,11 +7,17 @@ import Seo from "../components/SEO"
 const Error404 = styled.section`
   background-color: var(--background);
   color: #fff;
+  margin-top: 6rem;
+  padding: 0 20px;
+  @media (min-width: 1024px) {
+    padding: 0 75px;
+    margin-top: 12rem;
+  } 
 `
 
 const Title = styled.h1`
   margin-top: 0;
-
+  font-size: 32px;
   @media (min-width: 768px) {
     grid-column: 1 / 2;
   }
@@ -35,15 +41,15 @@ const SubTitle = styled.h2`
 const error = () => {
   return (
     <>
-      <Seo title="Error" />
+      <Seo title="404" />
       <Layout>
         <Error404 className="section-padding">
-          <Title>Sorry.</Title>
+          <Title>Oops!</Title>
           <SubContent>
-            <SubTitle>This page has moved or no longer exists.</SubTitle>
+            <SubTitle>The page you are looking for has been moved or no longer exists.</SubTitle>
             <p>
-              Please choose another option from the menu above, or to return
-              home, press the button below.
+              Please choose another option from the menu above, or go
+              home by clicking the button below.
             </p>
             <Link className="btn" to="/">
               Return Home
