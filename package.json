@@ -1,7 +1,7 @@
 {
-  "name": "barcadia",
+  "name": "portfolio",
   "private": true,
-  "description": "A super-fast site using GatsbyJS",
+  "description": "A super-fast portfolio of Duru-young Raymond using GatsbyJS",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
