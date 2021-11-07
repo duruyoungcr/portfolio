@@ -3,6 +3,4 @@
   My Portfolio Site
 </h1>
 
-.
-
 ## My portfolio site built using Gatsby.
