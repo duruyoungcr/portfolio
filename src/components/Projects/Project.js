@@ -17,7 +17,7 @@ const Feature = ({ feature }) => {
           alt="Projects Image"
         />
         <div className="features__item--content">
-          {title && <h2>{title}</h2>}
+          {title && <h2 style={{ textTransform: 'capitalize' }}>{title}</h2>}
           <Button text="View Project" as="span" />
         </div>
       </Link>
