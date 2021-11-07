@@ -30,6 +30,10 @@ const Features = () => {
 
   return (
     <ProjectsStyles>
+      <h1>
+        Featured Projects
+        <span style={{ color: "var(--primary)" }}>.</span>
+      </h1>
       <div className="features__container">
         <div className="features__container--scroll">
           {projects.map(({ node }) => {

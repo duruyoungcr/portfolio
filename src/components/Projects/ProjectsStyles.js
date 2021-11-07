@@ -4,7 +4,12 @@ export const ProjectsStyles = styled.section`
   padding: var(--sectionPadding) var(--borderSpacing);
   color: #fff;
   background-color: #000;
-
+  h1 {
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: var(--bannerTitle);
+  }
   .features__container {
     width: calc(100% + 60px);
     transform: translateX(-30px);

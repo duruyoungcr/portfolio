@@ -8,15 +8,14 @@ const BasicTextModule = () => {
     <BasicTextModuleStyles>
       <div className="container">
         <h2>
-          A super-fast theme that is easy to get started, using the power of
-          GatsbyJS
+          An engineering graduate with experience across various sectors having previously worked in the construction industry, banking sector, as well as the e-commerce sector.
         </h2>
         <p style={{ marginBottom: "60px" }}>
-          Using modern CSS properties such as grid, this theme is optmised for
-          speed and mobile devices. Giving users an excellent experience on any
-          device. Future-proofing your product.
+          Using Javascript primarily, I build webapps and websites that offer great performance,
+          speed, accessibility and responsiveness across all devices. Thereby, giving users an excellent experience on any
+          device.
         </p>
-        <Button text="View Products" as={Link} to="/products" />
+        <Button text="View Projects" as={Link} to="/projects" />
       </div>
     </BasicTextModuleStyles>
   )

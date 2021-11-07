@@ -6,6 +6,12 @@ export const PerksModuleStyles = styled.section`
   background-color: #000;
   position: relative;
 
+  h1 {
+    margin-top: 0;
+    margin-bottom: 4rem;
+    font-weight: 700;
+    font-size: var(--bannerTitle);
+  }
   .perks__image--bg {
     position: absolute;
     top: 0;
@@ -28,46 +34,38 @@ export const PerksModuleStyles = styled.section`
   }
 
   > .container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     position: relative;
+    text-align: center;
 
-    @media (min-width: 1154px) {
-      display: flex;
-      justify-content: space-between;
-      max-width: 1100px;
-      margin-left: 0;
+    @media (max-width: 425px) {
+      grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+      gap:2rem;
     }
   }
 `
 
-export const PerkStyles = styled.aside`
+export const PerkStyles = styled.div`
   .gatsby-image-wrapper {
-    width: 170px;
-    height: 45px;
+    width: 100px;
+    height: 80px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
-
-    @media (min-width: 375px) {
-      width: 200px;
-    }
-
-    @media (min-width: 414px) {
-      width: 220px;
-    }
-
-    @media (min-width: 768px) {
-      width: 250px;
-    }
-
-    @media (min-width: 1154px) {
-      width: 200px;
+    margin: 0 auto;
+    
+    @media (max-width: 425px) {
+      width: 80px;
+      height: 60px;
     }
 
     img {
       width: 100%;
       height: 100%;
       object-fit: contain !important;
-      object-position: left center;
+      object-position: center center;
     }
   }
 
@@ -119,25 +117,6 @@ export const PerkStyles = styled.aside`
     @media (min-width: 1154px) {
       font-size: 18px;
     }
-  }
-
-  margin-bottom: 60px;
-
-  @media (min-width: 375px) {
-    margin-bottom: 80px;
-  }
-
-  @media (min-width: 768px) {
-    margin-bottom: 100px;
-  }
-
-  @media (min-width: 1024px) {
-    margin-bottom: 120px;
-  }
-
-  @media (min-width: 1154px) {
-    margin-bottom: 0;
-    width: 260px;
   }
 
   &:last-child {

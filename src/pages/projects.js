@@ -1,6 +1,6 @@
 import * as React from "react"
 import Layout from "../components/Layout"
-import Features from "../components/Projects/Projects"
+import ProjectsList from "../components/Projects/Projects"
 import Seo from "../components/SEO"
 import SimpleBanner from "../components/SimpleBanner/SimpleBanner"
 import { StaticImage } from "gatsby-plugin-image"
@@ -13,11 +13,13 @@ const projects = () => {
         <SimpleBanner title="All Projects">
           <StaticImage
             className="banner__image"
-            src="../images/iphone-face-down.jpg"
-            alt="Apple iPhone face down"
+            src="../images/machine-code.jpg"
+            alt="machine code"
+            layout="fullWidth"
+            placeholder="blurred"
           />
         </SimpleBanner>
-        <Features />
+        <ProjectsList />
       </Layout>
     </>
   )

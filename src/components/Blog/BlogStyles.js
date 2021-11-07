@@ -9,6 +9,11 @@ export const BlogItemsStyles = styled.section`
   justify-content: center;
   padding-top: var(--sectionPadding);
   padding-bottom: var(--sectionPadding);
+
+  h1 {
+    font-weight: 700;
+    font-size: 32px;
+  }
 `
 
 export const BlogItemStyles = styled.article`

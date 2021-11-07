@@ -5,38 +5,21 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 import Seo from "../components/SEO"
 import BannerModule from "../components/BannerModule/BannerModule"
+import Button from "../components/Button/Button"
 
 const ProjectTemplateStyles = styled.div`
-  display: flex;
-  flex-wrap: wrap;
   padding: var(--sectionPadding) var(--borderSpacing);
   background-color: #000;
 
-  .column {
-    flex: 0 0 100%;
-
-    @media (min-width: 768px) {
-      flex-basis: 50%;
-
-      &:nth-child(1) {
-        padding-right: 20px;
-      }
-
-      &:nth-child(2) {
-        padding-left: 20px;
-      }
-
-      > * {
-        &:last-child {
-          margin-bottom: 0;
-        }
-      }
-    }
-
-    > * {
-      &:first-child {
-        margin-top: 0;
-      }
+  .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    max-width: 200px;
+    
+    a {
+      text-decoration: none;
     }
   }
 `
@@ -61,7 +44,18 @@ const projectTemplate = ({ data }) => {
           />
         </BannerModule>
         <ProjectTemplateStyles>
-          <div className="column">{description}</div>
+          <h2 className="column">{description}</h2>
+          <div className='links'>
+            <a href={live} target="_blank" rel="noreferrer">
+              <Button text={'Preview'} as={'span'} to={live} />
+            </a>
+            <a href={source} target="_blank" rel="noreferrer">
+              <Button text={'Code'} as={'span'} to={source} />
+            </a>
+          </div>
+          {/* <div>
+            <h3>Technologies Used</h3>
+          </div> */}
         </ProjectTemplateStyles>
       </Layout>
     </>

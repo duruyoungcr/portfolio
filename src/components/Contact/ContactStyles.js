@@ -16,7 +16,7 @@ export const ContactStyles = styled.section`
   }
   input,
   textarea {
-    background-color: #000;
+    background-color: #33333380;
     color: #fff;
     border: none;
     border-bottom: 3px solid var(--inActive);
@@ -26,17 +26,18 @@ export const ContactStyles = styled.section`
     font-family: "Heebo", sans-serif;
     padding: 15px;
     transition: border-bottom-color 0.3s;
+    border-radius: 8px;
 
     &:focus {
       border-bottom-color: var(--primary);
     }
 
     &::-webkit-input-placeholder {
-      color: var(--inActive);
+      color: #bdbdbd;
     }
 
     &::-moz-placeholder {
-      color: var(--inActive);
+      color: #bdbdbd;
     }
 
     &:-ms-input-placeholder {

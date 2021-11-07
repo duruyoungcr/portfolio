@@ -1,6 +1,6 @@
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { ProjectsStyles } from "./ProjectsStyles"
+import { ProjectsListStyles } from "./ProjectsListStyles"
 import Project from "./Project"
 
 const getProjects = graphql`
@@ -15,18 +15,21 @@ const getProjects = graphql`
           live
           source
           title
+          image {
+            gatsbyImageData(placeholder: BLURRED)
+          }
         }
       }
     }
   }
 `
 
-const Features = () => {
+const ProjectsList = () => {
   const response = useStaticQuery(getProjects)
   const projects = response.projects.edges
 
   return (
-    <ProjectsStyles>
+    <ProjectsListStyles>
       <div className="features__container">
         <div className="features__container--scroll">
           {projects.map(({ node }) => {
@@ -34,8 +37,8 @@ const Features = () => {
           })}
         </div>
       </div>
-    </ProjectsStyles>
+    </ProjectsListStyles>
   )
 }
 
-export default Features
+export default ProjectsList
