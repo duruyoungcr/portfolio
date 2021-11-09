@@ -11,6 +11,8 @@ export const UseSiteMetadata = () => {
             author
             twitterUsername
             siteUrl
+            keywords
+            image
           }
         }
       }
