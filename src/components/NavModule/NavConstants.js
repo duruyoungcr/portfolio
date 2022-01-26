@@ -15,4 +15,8 @@ export const menuItems = [
     path: "/contact",
     text: "contact",
   },
+  {
+    path: "https://drive.google.com/file/d/1vCc5mubXcwZw6ah_bjh2EEnxxUpEmfvZ/view?usp=sharing",
+    text: "resume"
+  }
 ]
