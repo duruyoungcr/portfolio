@@ -19,7 +19,16 @@ const PerksModule = () => {
             layout="constrained"
             placeholder="tracedSVG"
           />
-          <p>Javascript</p>
+          <p>JavaScript</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/typescript-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>TypeScript</p>
         </Perk>
         <Perk>
           <StaticImage
@@ -41,21 +50,48 @@ const PerksModule = () => {
         </Perk>
         <Perk>
           <StaticImage
-            src="../../images/logos/material-ui-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-          <p>Material UI</p>
-        </Perk>
-        <Perk>
-          <StaticImage
             src="../../images/logos/tailwindcss-logo.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"
           />
           <p>Tailwind CSS</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/sass-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Sass</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/bootstrap-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Bootstrap</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/chakra-ui-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Chakra UI</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/material-ui-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Material UI</p>
         </Perk>
         <Perk>
           <StaticImage
@@ -86,12 +122,12 @@ const PerksModule = () => {
         </Perk>
         <Perk>
           <StaticImage
-            src="../../images/logos/trello-logo.svg"
+            src="../../images/logos/mixpanel-logo.svg"
             alt="Perk Image"
             layout="constrained"
             placeholder="tracedSVG"
           />
-          <p>Trello</p>
+          <p>Mixpanel</p>
         </Perk>
         <Perk>
           <StaticImage
@@ -101,15 +137,6 @@ const PerksModule = () => {
             placeholder="tracedSVG"
           />
           <p>Jira</p>
-        </Perk>
-        <Perk>
-          <StaticImage
-            src="../../images/logos/mixpanel-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-          <p>Mixpanel</p>
         </Perk>
         <Perk>
           <StaticImage
@@ -137,33 +164,6 @@ const PerksModule = () => {
             placeholder="tracedSVG"
           />
           <p>Slack</p>
-        </Perk>
-        <Perk>
-          <StaticImage
-            src="../../images/logos/bootstrap-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-          <p>Bootstrap</p>
-        </Perk>
-        <Perk>
-          <StaticImage
-            src="../../images/logos/sass-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-          <p>Sass</p>
-        </Perk>
-        <Perk>
-          <StaticImage
-            src="../../images/logos/wordpress-logo.svg"
-            alt="Perk Image"
-            layout="constrained"
-            placeholder="tracedSVG"
-          />
-          <p>Wordpress</p>
         </Perk>
         <Perk>
           <StaticImage
