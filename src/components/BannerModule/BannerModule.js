@@ -36,7 +36,7 @@ const BannerModule = ({ children, title, enquire, subTitle }) => {
             )}
             {subTitle && <h2>{subTitle}</h2>}
             {enquire && <Button text="Contact Me" as={Link} to="/contact" />}
-            <button onClick={scrollToArea}>
+            <button className="scroll__to" onClick={scrollToArea} title='Scroll down'>
               <Arrow />
             </button>
           </div>

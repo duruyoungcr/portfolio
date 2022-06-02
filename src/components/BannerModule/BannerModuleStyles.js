@@ -21,6 +21,10 @@ export const BannerModuleStyles = styled.section`
     z-index: 1;
   }
 
+  .scroll__to {
+    cursor: pointer;
+  }
+  
   .banner__content {
     position: relative;
     z-index: 2;
