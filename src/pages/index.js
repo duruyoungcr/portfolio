@@ -14,7 +14,7 @@ const Index = () => {
       <Layout>
         <BannerModule
           title="Hello, I am Raymond👋"
-          subTitle="A Frontend Developer"
+          subTitle="A Frontend Engineer"
           enquire={true}
         />
         <BasicTextModule />
