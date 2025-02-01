@@ -8,12 +8,12 @@ const BasicTextModule = () => {
     <BasicTextModuleStyles>
       <div className="container">
         <h2>
-          An engineering graduate with experience across various sectors having previously worked in the construction industry, banking sector, as well as the e-commerce sector.
-        </h2>
+          "Experienced Software Engineer with an MSc in Artificial Intelligence and Data Science."</h2>
+        <p>
+          Passionate about building high-performance, accessible, and responsive software using JavaScript/TypeScript to deliver seamless user experiences across all devices.
+        </p>
         <p style={{ marginBottom: "60px" }}>
-          Using Javascript primarily, I build webapps and websites that offer great performance,
-          speed, accessibility and responsiveness across all devices. Thereby, giving users an excellent experience on any
-          device.
+          Experienced in optimizing application performance, enhancing user interactions, and mentoring development teams.
         </p>
         <Button text="View Projects" as={Link} to="/projects" />
       </div>

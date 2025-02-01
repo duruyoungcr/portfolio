@@ -40,9 +40,9 @@ export const PerksModuleStyles = styled.section`
     position: relative;
     text-align: center;
 
-    @media (max-width: 425px) {
+    @media (max-width: 450px) {
       grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
-      gap:2rem;
+      gap:1.5rem;
     }
   }
 `
@@ -56,7 +56,7 @@ export const PerkStyles = styled.div`
     align-items: center;
     margin: 0 auto;
     
-    @media (max-width: 425px) {
+    @media (max-width: 450px) {
       width: 80px;
       height: 60px;
     }

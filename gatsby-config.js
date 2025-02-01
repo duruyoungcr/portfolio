@@ -8,9 +8,9 @@ require("dotenv").config({
 })
 module.exports = {
   siteMetadata: {
-    title: "Duru-young Raymond | Frontend Developer",
-    description: "Porfolio Page of Duru-young Raymond, A Frontend Developer.",
-    keywords: ['Portfolio', 'Frontend Developer', 'Software Developer', 'Lagos', 'Nigeria', 'React', 'Web Development'],
+    title: "Duru-young Raymond | Software Engineer",
+    description: "Porfolio Page of Duru-young Raymond, A Software Engineer.",
+    keywords: ['Software Engineer', 'Portfolio', 'Frontend Developer', 'Software Developer', 'United Kingdom', 'React', 'Next JS', 'JavaScript', 'TypeScript'],
     author: "Duru-young Raymond",
     twitterUsername: "@duruyoungcr",
     image: "/yellow-metal-design-decoration.jpg",

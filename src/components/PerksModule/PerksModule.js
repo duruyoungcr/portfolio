@@ -183,6 +183,51 @@ const PerksModule = () => {
           />
           <p>Gsap</p>
         </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/sanity-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Sanity</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/contentful-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Contentful</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/cloudflare-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Clouflare</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/vitest-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Vitest</p>
+        </Perk>
+        <Perk>
+          <StaticImage
+            src="../../images/logos/storybook-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Storybook</p>
+        </Perk>
       </div>
     </PerksModuleStyles>
   )
