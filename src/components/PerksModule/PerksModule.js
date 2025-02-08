@@ -41,6 +41,15 @@ const PerksModule = () => {
         </Perk>
         <Perk>
           <StaticImage
+            src="../../images/logos/nextjs-logo.svg"
+            alt="Perk Image"
+            layout="constrained"
+            placeholder="tracedSVG"
+          />
+          <p>Next JS</p>
+        </Perk>
+        <Perk>
+          <StaticImage
             src="../../images/logos/redux-logo.svg"
             alt="Perk Image"
             layout="constrained"

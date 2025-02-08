@@ -8,7 +8,7 @@ const BasicTextModule = () => {
     <BasicTextModuleStyles>
       <div className="container">
         <h2>
-          "Experienced Software Engineer with an MSc in Artificial Intelligence and Data Science."</h2>
+          Experienced Software Engineer with an MSc in Artificial Intelligence and Data Science.</h2>
         <p>
           Passionate about building high-performance, accessible, and responsive software using JavaScript/TypeScript to deliver seamless user experiences across all devices.
         </p>
